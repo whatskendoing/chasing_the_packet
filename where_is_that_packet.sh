@@ -63,7 +63,7 @@ vvv="-vvv"
 # present and adding one (e.g. .pcap) is recommended.
 #
 # Location:
-w="-w /Users/Shared/$(date +%Y-%m-%d_%H-%M-%S)_tcmdump" # Add Location
+w="-w /Users/Shared/$(date +%Y-%m-%d_%H-%M-%S)_tcmdump.pcap" # Add Location
 
 echo "**********************************************************"
 echo "starting: /usr/sbin/tcpdump $vvv $n $s $B $C $w "
